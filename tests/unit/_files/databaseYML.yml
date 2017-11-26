@@ -1,0 +1,9 @@
+usuarios:
+    -
+        nombre: Macarena
+        apellido: Murillo
+        dni: 00000000P
+    -
+        nombre: Diego
+        apellido: Sanz
+        dni: 00000001P

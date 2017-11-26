@@ -1,0 +1,15 @@
+<!-- mysqldump - -xml -t -u user - -password=**** DataBaseName > export_sql.xml -->
+
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="CursoTesting">
+	<table_data name="usuarios">
+	<row>
+		<field name="nombre">Macarena</field>
+		<field name="apellido">Murillo</field>
+		<field name="dni">00000000P</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>
+

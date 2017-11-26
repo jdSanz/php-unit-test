@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<dataset>
+    <table name="usuarios">
+        <column>nombre</column>
+        <column>apellido</column>
+        <column>email</column>
+        <row>
+            <value>Macarena</value>
+            <value>Murillo</value>
+            <value>macarena@gmail.com</value>
+        </row>
+        <row>
+            <value>Diego</value>
+            <value>Sanz</value>
+            <value>diego@gmail.com</value>
+        </row>
+    </table>
+</dataset>
