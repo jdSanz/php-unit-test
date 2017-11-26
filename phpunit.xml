@@ -10,5 +10,6 @@
 	</testsuites>
 	<logging>
 		<log type="testdox-html" target="report/report.html" />
+		<log type="junit" target="report/junit_report.xml" logIncompleteSkipped="false"/>
 	</logging>
 </phpunit>

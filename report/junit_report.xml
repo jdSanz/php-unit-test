@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Test suite" tests="36" assertions="58" errors="0" failures="0" skipped="0" time="0.015758">
+    <testsuite name="AdditionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/Calculator/AdditionTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.002675">
+      <testcase name="adds_up_given_operands" class="AdditionTest" classname="AdditionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/Calculator/AdditionTest.php" line="8" assertions="1" time="0.002199"/>
+      <testcase name="no_operands_given_throws_exception_when_calculating" class="AdditionTest" classname="AdditionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/Calculator/AdditionTest.php" line="17" assertions="1" time="0.000476"/>
+    </testsuite>
+    <testsuite name="CalculatorTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/Calculator/CalculatorTest.php" tests="5" assertions="7" errors="0" failures="0" skipped="0" time="0.000964">
+      <testcase name="can_set_single_operation" class="CalculatorTest" classname="CalculatorTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/Calculator/CalculatorTest.php" line="8" assertions="1" time="0.000341"/>
+      <testcase name="can_set_multiple_operations" class="CalculatorTest" classname="CalculatorTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/Calculator/CalculatorTest.php" line="20" assertions="1" time="0.000095"/>
+      <testcase name="operations_ignored_if_not_instance_of_operation_interface" class="CalculatorTest" classname="CalculatorTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/Calculator/CalculatorTest.php" line="36" assertions="1" time="0.000087"/>
+      <testcase name="can_calculate_result" class="CalculatorTest" classname="CalculatorTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/Calculator/CalculatorTest.php" line="48" assertions="1" time="0.000077"/>
+      <testcase name="calculate_method_returns_multiple_results" class="CalculatorTest" classname="CalculatorTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/Calculator/CalculatorTest.php" line="61" assertions="3" time="0.000364"/>
+    </testsuite>
+    <testsuite name="DivisionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/Calculator/DivisionTest.php" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.000205">
+      <testcase name="divides_given_operands" class="DivisionTest" classname="DivisionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/Calculator/DivisionTest.php" line="8" assertions="1" time="0.000074"/>
+      <testcase name="no_operands_given_throws_exception_when_calculating" class="DivisionTest" classname="DivisionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/Calculator/DivisionTest.php" line="17" assertions="1" time="0.000074"/>
+      <testcase name="removes_division_by_zero_operands" class="DivisionTest" classname="DivisionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/Calculator/DivisionTest.php" line="25" assertions="1" time="0.000057"/>
+    </testsuite>
+    <testsuite name="CollectionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/CollectionTest.php" tests="9" assertions="17" errors="0" failures="0" skipped="0" time="0.000979">
+      <testcase name="empty_instatiated_collection_returns_no_items" class="CollectionTest" classname="CollectionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/CollectionTest.php" line="8" assertions="1" time="0.000315"/>
+      <testcase name="count_is_correct_for_items_passed_in" class="CollectionTest" classname="CollectionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/CollectionTest.php" line="16" assertions="1" time="0.000076"/>
+      <testcase name="items_returned_match_items_passed_in" class="CollectionTest" classname="CollectionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/CollectionTest.php" line="26" assertions="4" time="0.000063"/>
+      <testcase name="collection_is_instance_of_iterator_aggregate" class="CollectionTest" classname="CollectionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/CollectionTest.php" line="39" assertions="1" time="0.000181"/>
+      <testcase name="collection_can_be_iterated" class="CollectionTest" classname="CollectionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/CollectionTest.php" line="47" assertions="2" time="0.000074"/>
+      <testcase name="collection_can_be_merged_with_another_collection" class="CollectionTest" classname="CollectionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/CollectionTest.php" line="64" assertions="2" time="0.000095"/>
+      <testcase name="can_add_to_existing_collection" class="CollectionTest" classname="CollectionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/CollectionTest.php" line="76" assertions="2" time="0.000058"/>
+      <testcase name="returns_json_encoded_items" class="CollectionTest" classname="CollectionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/CollectionTest.php" line="86" assertions="2" time="0.000064"/>
+      <testcase name="json_encoding_a_collection_object_returns_json" class="CollectionTest" classname="CollectionTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/CollectionTest.php" line="98" assertions="2" time="0.000054"/>
+    </testsuite>
+    <testsuite name="MockTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/MocksTest.php" tests="9" assertions="17" errors="0" failures="0" skipped="0" time="0.006091">
+      <testcase name="simple_stub" class="MockTest" classname="MockTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/MocksTest.php" line="15" assertions="4" time="0.004329"/>
+      <testsuite name="MockTest::method_get_multiple_arguments" tests="4" assertions="4" errors="0" failures="0" skipped="0" time="0.000549">
+        <testcase name="method_get_multiple_arguments with data set #0" class="MockTest" classname="MockTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/MocksTest.php" line="38" assertions="1" time="0.000244"/>
+        <testcase name="method_get_multiple_arguments with data set #1" class="MockTest" classname="MockTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/MocksTest.php" line="38" assertions="1" time="0.000113"/>
+        <testcase name="method_get_multiple_arguments with data set #2" class="MockTest" classname="MockTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/MocksTest.php" line="38" assertions="1" time="0.000098"/>
+        <testcase name="method_get_multiple_arguments with data set #3" class="MockTest" classname="MockTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/MocksTest.php" line="38" assertions="1" time="0.000094"/>
+      </testsuite>
+      <testcase name="method_maps_values" class="MockTest" classname="MockTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/MocksTest.php" line="56" assertions="2" time="0.000469"/>
+      <testcase name="method_returns_callback" class="MockTest" classname="MockTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/MocksTest.php" line="78" assertions="1" time="0.000253"/>
+      <testcase name="method_returns_different_values_on_consecutive_calls" class="MockTest" classname="MockTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/MocksTest.php" line="90" assertions="5" time="0.000246"/>
+      <testcase name="method_returns_exception" class="MockTest" classname="MockTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/MocksTest.php" line="104" assertions="1" time="0.000245"/>
+    </testsuite>
+    <testsuite name="SampleTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/SampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.000178">
+      <testcase name="testTrueAssertsToTrue" class="SampleTest" classname="SampleTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/SampleTest.php" line="11" assertions="1" time="0.000178"/>
+    </testsuite>
+    <testsuite name="UserDatabaseTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/UserDatabaseTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.004080">
+      <testcase name="save_user_with_email_already_registered_throws_PDOException" class="UserDatabaseTest" classname="UserDatabaseTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/UserDatabaseTest.php" line="31" assertions="1" time="0.004080"/>
+    </testsuite>
+    <testsuite name="UserTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/UserTest.php" tests="6" assertions="10" errors="0" failures="0" skipped="0" time="0.000585">
+      <testcase name="testThatWeCanGetTheFirstName" class="UserTest" classname="UserTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/UserTest.php" line="16" assertions="1" time="0.000084"/>
+      <testcase name="testThatWeCanGetTheLastName" class="UserTest" classname="UserTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/UserTest.php" line="22" assertions="1" time="0.000071"/>
+      <testcase name="testFullNameIsReturned" class="UserTest" classname="UserTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/UserTest.php" line="28" assertions="1" time="0.000068"/>
+      <testcase name="testFirstAndLastNameAreTrimmed" class="UserTest" classname="UserTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/UserTest.php" line="35" assertions="2" time="0.000080"/>
+      <testcase name="testEmailAddressCanBeSet" class="UserTest" classname="UserTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/UserTest.php" line="43" assertions="1" time="0.000068"/>
+      <testcase name="email_variables_contains_correct_values" class="UserTest" classname="UserTest" file="/Users/juandiego.sanz/Documents/CursoTestingExamples/php-unit-test/tests/unit/UserTest.php" line="51" assertions="4" time="0.000214"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
