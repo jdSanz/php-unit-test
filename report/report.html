@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Test Documentation</title>
+        <style>
+            body {
+                text-rendering: optimizeLegibility;
+                font-variant-ligatures: common-ligatures;
+                font-kerning: normal;
+                margin-left: 2em;
+            }
+
+            body > ul > li {
+                font-family: Source Serif Pro, PT Sans, Trebuchet MS, Helvetica, Arial;
+                font-size: 2em;
+            }
+
+            h2 {
+                font-family: Tahoma, Helvetica, Arial;
+                font-size: 3em;
+            }
+
+            ul {
+                list-style: none;
+                margin-bottom: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="AdditionTest">Addition</h2>
+        <ul>
+            <li style="color: #555753;">✓ Adds up given operands</li>
+            <li style="color: #555753;">✓ No operands given throws exception when calculating</li>
+        </ul>
+        <h2 id="CalculatorTest">Calculator</h2>
+        <ul>
+            <li style="color: #555753;">✓ Can set single operation</li>
+            <li style="color: #555753;">✓ Can set multiple operations</li>
+            <li style="color: #555753;">✓ Operations ignored if not instance of operation interface</li>
+            <li style="color: #555753;">✓ Can calculate result</li>
+            <li style="color: #555753;">✓ Calculate method returns multiple results</li>
+        </ul>
+        <h2 id="DivisionTest">Division</h2>
+        <ul>
+            <li style="color: #555753;">✓ Divides given operands</li>
+            <li style="color: #555753;">✓ No operands given throws exception when calculating</li>
+            <li style="color: #555753;">✓ Removes division by zero operands</li>
+        </ul>
+        <h2 id="CollectionTest">Collection</h2>
+        <ul>
+            <li style="color: #555753;">✓ Empty instatiated collection returns no items</li>
+            <li style="color: #555753;">✓ Count is correct for items passed in</li>
+            <li style="color: #555753;">✓ Items returned match items passed in</li>
+            <li style="color: #555753;">✓ Collection is instance of iterator aggregate</li>
+            <li style="color: #555753;">✓ Collection can be iterated</li>
+            <li style="color: #555753;">✓ Collection can be merged with another collection</li>
+            <li style="color: #555753;">✓ Can add to existing collection</li>
+            <li style="color: #555753;">✓ Returns json encoded items</li>
+            <li style="color: #555753;">✓ Json encoding a collection object returns json</li>
+        </ul>
+        <h2 id="MockTest">Mock</h2>
+        <ul>
+            <li style="color: #555753;">✓ Simple stub</li>
+            <li style="color: #555753;">✓ Method get multiple arguments </li>
+            <li style="color: #555753;">✓ Method maps values</li>
+            <li style="color: #555753;">✓ Method returns callback</li>
+            <li style="color: #555753;">✓ Method returns different values on consecutive calls</li>
+            <li style="color: #555753;">✓ Method returns exception</li>
+        </ul>
+        <h2 id="SampleTest">Sample</h2>
+        <ul>
+            <li style="color: #555753;">✓ True asserts to true</li>
+        </ul>
+        <h2 id="UserDatabaseTest">UserDatabase</h2>
+        <ul>
+            <li style="color: #555753;">✓ Save user with email already registered throws PDOException</li>
+        </ul>
+        <h2 id="UserTest">User</h2>
+        <ul>
+            <li style="color: #555753;">✓ That we can get the first name</li>
+            <li style="color: #555753;">✓ That we can get the last name</li>
+            <li style="color: #555753;">✓ Full name is returned</li>
+            <li style="color: #555753;">✓ First and last name are trimmed</li>
+            <li style="color: #555753;">✓ Email address can be set</li>
+            <li style="color: #555753;">✓ Email variables contains correct values</li>
+        </ul>
+    </body>
+</html>
